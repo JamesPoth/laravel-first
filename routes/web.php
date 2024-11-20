@@ -13,3 +13,7 @@ Route::get('about', function() {
 Route::get('comments', function() {
     dd('Now changed in a another way');
 });
+
+Route::get('another change', function() {
+    dd('This was cloned and now I want to push it back');
+});
