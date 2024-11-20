@@ -7,11 +7,9 @@ Route::get('/', function () {
 });
 
 Route::get('about', function() {
-    
+    dd('Now changed in a different way');
 });
 
 Route::get('comments', function() {
-    
+    dd('Now changed in a another way');
 });
-
-dd('Now changed in a different way');
